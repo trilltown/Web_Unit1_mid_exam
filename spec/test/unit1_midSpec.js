@@ -47,7 +47,7 @@ describe("#median", () => {
 });
 describe("#product", () => {
   it("returns the product of an array", () => {
-    expect(product([1, 2, 3, 4, 5])).toEqual(15);
+    expect(product([1, 2, 3, 4, 5])).toEqual(120);
   });
 
   it("if the array is empty is should return 0", () => {
